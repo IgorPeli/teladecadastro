@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div class="c4"><br>
+<h2 class="c5">Women Help Women</h2>
+
+
+
+</div><br><br>
+<h1>Insira seus dados para o cadastro: </h1>
+<fieldset>
+<div>
+    <input type="text" name="nome" id="nome" placeholder="Digite seu Nome Completo" class="c1" required><br><br>
+</div>
+<div>
+<input type="text" name="cpf" id="cpf"  placeholder="CPF/CADASTRO SOCIAL" class="c1" required><br><br>
+<div> 
+<input type="email" name="email" id="email" placeholder="Email"  class="c1"   onblur="validarEmail()" onfocus="redefinirMsg()">
+<span id="error-email"></span>
+
+
+<br><br>
+</div>
+<div>
+    
+<input type="text" id="endereco" placeholder="Endereço" class="c1">
+</div>
+</div>
+
+<Br><input type="password" id="senha" placeholder="Senha" class="c1" required>
+</fieldset>
+
+
+<button class="c2" onclick="proximo()">Seguir &#8680;</button>
+<button class="c3" onclick="antes()">&#8678; Voltar</button>
+
+
+<script src="script.js"></script>
+</body>
+
+</html>
